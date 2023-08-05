@@ -6,7 +6,7 @@ const FilterableTable = ({series}) => {
     const [filterText, setFilterText] = useState('');
     return (
         <div>
-            <SearchBar  filterText={filterText}
+            <SearchBar  filterText={filterTexts}
                         onFilterTextChange={setFilterText}
                         />
             <SeriesTable series={series}
